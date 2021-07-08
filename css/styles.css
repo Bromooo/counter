@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+div.outer{
+    background-image: url(../bacc.jpg);
+    height: 75vh;
+    width: 60%;
+    /* padding: 70px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+div.inner{
+    height: 75vh;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #FFF;
+    background-image: url(../bacc.jpg);
+    box-shadow: 1px 5px 10px black;
+    background-size: 140%;
+    /* transform: scale(1.2); */
+    color: #FFF;
+}
+div h2{
+    color: green;
+    font-size: 15rem;
+    line-height: 0.1rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: rgb(71, 71, 146);
+    color: #FFF;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px black;
+    margin-right: 10px;
+    outline: none;
+
+}
+button:hover{
+    background-color: blue;
+    
+    /* box-shadow: none; */
+}
+
+@media (max-width: 768px){
+    div.outer{
+        width: 95%;
+    }
+    div.inner{
+        width: 90%;
+    }
+}
